@@ -1,0 +1,19 @@
+<header>
+<% logo = image_tag("LEMUREDWORD.PNG", :alt => "Lemured", :class => "round") %>
+<%= link_to logo, root_path %>
+<nav class="signin round">
+  <ul>  	  		
+    <li><%= link_to "Sign in", '#' %></li>
+    <li class="or">or</li>
+    <li><%= link_to "Sign up", signup_path %></li>
+  </ul>
+</nav>
+<nav class="menu round">
+  <ul class="menu round">
+    <li><%= link_to "Home", root_path%></li>
+    <li><%= link_to "Art Gallery", '#' %></li>
+    <li><%= link_to "2D Gallery", '#' %></li>
+    <li class="Search_bar"><%= link_to "Search", '#' %></li>
+  </ul>	
+</nav>
+</header>
