@@ -204,14 +204,14 @@ td.company_links {
 }
 
 td.posts{
-	width: 75%;
+	width: 600px;
 	padding: 1em;
 	vertical-align: top;
     background: rgba(193, 160, 4, .25);
 }
 
 td.left-sidebar {
-  width: 25%;
+  width: 200px;
   padding: 1em;
   vertical-align: top;
   background: rgba(193, 160, 4, .25);
