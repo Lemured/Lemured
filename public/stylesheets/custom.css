@@ -183,3 +183,41 @@ footer nav ul li a:hover {
 footer nav ul li a:visited {
 	color: #006400;
 }
+
+/* User show page */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 10px;
+}
+
+td.company_links {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+
+}
+
+td.posts{
+	width: 75%;
+	padding: 1em;
+	vertical-align: top;
+    background: rgba(193, 160, 4, .25);
+}
+
+td.left-sidebar {
+  width: 25%;
+  padding: 1em;
+  vertical-align: top;
+  background: rgba(193, 160, 4, .25);
+}
+
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-top: -15px;
+}
