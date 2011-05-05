@@ -1,6 +1,8 @@
 .container{
 	margin: 0 auto;
-	width: 800px;
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 900px;
 }
 
 body {
@@ -154,7 +156,7 @@ nav.menu ul.menu li.active a {
 footer {
 	text-align: center;
 	margin-top: 10px;
-	width: 800px;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #FFD700;
@@ -204,14 +206,14 @@ td.company_links {
 }
 
 td.posts{
-	width: 600px;
+	width: 575px;
 	padding: 1em;
 	vertical-align: top;
     background: rgba(193, 160, 4, .25);
 }
 
-td.left-sidebar {
-  width: 200px;
+td.right-sidebar {
+  width: 225px;
   padding: 1em;
   vertical-align: top;
   background: rgba(193, 160, 4, .25);
